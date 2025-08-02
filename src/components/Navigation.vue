@@ -10,6 +10,7 @@
         <router-link to="/string-generator" class="nav-link">随机字符串</router-link>
         <router-link to="/json-parser" class="nav-link">JSON解析</router-link>
         <router-link to="/base64-tool" class="nav-link">Base64工具</router-link>
+        <router-link to="/url-tool" class="nav-link">URL工具</router-link>
       </div>
     </div>
   </nav>

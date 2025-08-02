@@ -42,6 +42,15 @@
               <p>快速编码和解码Base64字符串</p>
             </div>
             
+            <div 
+              class="feature-card glass-card clickable" 
+              @click="navigateToTool('/url-tool')"
+            >
+              <div class="feature-icon">🔗</div>
+              <h3>URL 编码解码</h3>
+              <p>快速进行URL编码和解码操作</p>
+            </div>
+            
             <div class="feature-card glass-card coming-soon">
               <div class="feature-icon">🚀</div>
               <h3>更多工具</h3>
@@ -130,6 +139,11 @@ export default {
           name: 'Base64工具',
           route: '/base64-tool',
           text: '从Base64工具开始吧'
+        },
+        {
+          name: 'URL工具',
+          route: '/url-tool',
+          text: '从URL工具开始吧'
         }
       ],
       randomTool: {}
@@ -217,8 +231,12 @@ export default {
 
 .hero-features {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
+  margin-bottom: 3rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 3rem;
 }
 

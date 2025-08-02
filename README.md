@@ -9,6 +9,7 @@ A modern collection of developer utilities with a sleek, tech-inspired interface
 - **Random String Generator** - Generate secure random strings with customizable character sets and lengths
 - **JSON Parser** - Real-time JSON formatting, validation, and beautification
 - **Base64 Tool** - Encode and decode Base64 strings with file support
+- **URL Encoder/Decoder** - Encode and decode URLs with common examples
 - **Dark/Light Theme** - Toggle between dark and light modes
 - **Responsive Design** - Works seamlessly on desktop and mobile devices
 - **Particle Background** - Interactive animated background with mouse effects

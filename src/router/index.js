@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import StringGenerator from '../views/StringGenerator.vue'
 import JsonParser from '../views/JsonParser.vue'
 import Base64Tool from '../views/Base64Tool.vue'
+import UrlTool from '../views/UrlTool.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/base64-tool',
     name: 'Base64Tool',
     component: Base64Tool
+  },
+  {
+    path: '/url-tool',
+    name: 'UrlTool',
+    component: UrlTool
   }
 ]
 
