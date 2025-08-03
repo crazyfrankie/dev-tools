@@ -104,6 +104,11 @@
                   <span class="code-operator">:</span>
                   <span class="code-string"> "编码工具"</span>
                 </div>
+                <div class="code-line code-indent">
+                  <span class="code-property">urlParser</span>
+                  <span class="code-operator">:</span>
+                  <span class="code-string"> "URL工具"</span>
+                </div>
                 <div class="code-line">
                   <span class="code-bracket">}</span>
                 </div>
